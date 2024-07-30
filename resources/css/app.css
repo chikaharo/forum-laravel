@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .inputText {
+        @apply w-full rounded-md border-gray-300 border dark:border-gray-800 focus:border-indigo-600 focus:ring-indigo-600;
+    }
+
+    .textError {
+        @apply font-semibold text-red-500 mt-1;
+    }
+
+    .textLink {
+        @apply text-sky-600 hover:underline hover:text-sky-700;
+    }
+
+    .semiText {
+        @apply font-semibold;
+    }
+
+    .label {
+        @apply font-semibold mb-2;
+    }
+}
